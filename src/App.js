@@ -58,21 +58,21 @@ function App() {
 
       <div className='Cards_Wrapper'>
         {
-          Data.map((e,i)=>{
-            return(
-              <Cards 
-              key={i}
-              description = {e.description}
-              image = {e.image}
-              price = {e.price}
-              feature= {e.feature}
-              address = {e.address}
+          Data.map((e, i) => {
+            return (
+              <Cards
+                key={i}
+                description={e.description}
+                image={e.image}
+                price={e.price}
+                feature={e.feature}
+                address={e.address}
               />
             )
           })
 
         }
-     
+
       </div>
 
       <h1>olx Cards UI With React </h1>
